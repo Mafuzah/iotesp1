@@ -14,9 +14,9 @@ char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "GelomBang";
 char pass[] = "202020192018";
 #include <Adafruit_NeoPixel.h>
- Adafruit_NeoPixel pixels = Adafruit_NeoPixel(5, 4, NEO_GRB + NEO_KHZ800);
+ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(5, 5, NEO_GRB + NEO_KHZ800);
 
-BLYNK_WRITE(V0)
+BLYNK_WRITE(V1)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
