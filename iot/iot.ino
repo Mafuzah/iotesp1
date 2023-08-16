@@ -20,7 +20,7 @@ BLYNK_WRITE(V1)
 {
 int pinValue = param.asInt();
   if (pinValue == 1) {
-    pixels.setPixelColor(0, 0xff0000);
+    pixels.setPixelColor(1, 0xff0000);
     pixels.setPixelColor(5, 0xff0000);
     pixels.setPixelColor(2, 0xff0000);
     pixels.setPixelColor(3, 0xff0000);
