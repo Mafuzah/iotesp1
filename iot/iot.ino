@@ -1,4 +1,4 @@
-#define BLYNK_TEMPLATE_ID           "TMPL6Kq5zK5kL"
+#define masburah BLYNK_TEMPLATE_ID           "TMPL6Kq5zK5kL"
 #define BLYNK_DEVICE_NAME           "IOT ESP 32"
 #define BLYNK_AUTH_TOKEN            "fCYNrO6GmhTfbadPuJLfLvOa3UujajZd"
 
